@@ -199,7 +199,7 @@ export default function BuyClass() {
               <h2>${product.price}</h2>
               <a href="#AddCart">
                 <img
-                  src="AddShoppingCart.svg"
+                  src="AddShoppingCart_black.png"
                   className="CartIcon"
                   alt={`Add ${product.name} to cart`}
                 />
@@ -233,7 +233,7 @@ export default function BuyClass() {
       {/* Calculation Section */}
       {showCalculate && (
         <section className="calculate">
-          <hr />
+          <hr/>
           <table>
             <thead>
               <tr>
